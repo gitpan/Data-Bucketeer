@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Data::Bucketeer;
-BEGIN {
-  $Data::Bucketeer::VERSION = '0.001';
+{
+  $Data::Bucketeer::VERSION = '0.002';
 }
 # ABSTRACT: sort data into buckets based on threshholds
 
@@ -82,6 +82,7 @@ sub bound_and_result_for {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -90,7 +91,7 @@ Data::Bucketeer - sort data into buckets based on threshholds
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 OVERVIEW
 
@@ -217,4 +218,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
