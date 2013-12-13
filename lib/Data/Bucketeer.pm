@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Data::Bucketeer;
 {
-  $Data::Bucketeer::VERSION = '0.002';
+  $Data::Bucketeer::VERSION = '0.003';
 }
 # ABSTRACT: sort data into buckets based on threshholds
 
@@ -85,13 +85,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Data::Bucketeer - sort data into buckets based on threshholds
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 OVERVIEW
 
